@@ -346,7 +346,7 @@
           "settings": {
             "maxWidth": 1100,
             "borderRadius": 60,
-            "itemsPerView": 5,
+            "itemsPerView": 4,
             "mobileItemsPerView": 1,
             "imageRatio": "1",
             "reviewerNameColor": "#ffffff",
