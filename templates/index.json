@@ -84,6 +84,31 @@
         "controls_color": "#ffffff"
       }
     },
+    "17782575596b2747c8": {
+      "type": "apps",
+      "blocks": {
+        "quinn_shoppable_reel_app_cards_block_wgn83d": {
+          "type": "shopify://apps/quinn-shoppable-reel/blocks/app-cards-block/483fa771-9c4d-49e4-8c0d-0155f4b872d6",
+          "settings": {
+            "custom_metaobject_handle": "null",
+            "background_color": "#ffffff",
+            "margin_desktop": "10px 0px 0px 0px",
+            "margin_mobile": "5px 0px 0px 0px",
+            "padding_desktop": "10px 10px 10px 10px",
+            "padding_mobile": "10px 5px 10px 5px"
+          }
+        }
+      },
+      "block_order": [
+        "quinn_shoppable_reel_app_cards_block_wgn83d"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false
+      }
+    },
     "multi-column": {
       "type": "multi-column",
       "blocks": {
@@ -351,8 +376,8 @@
             "imageRatio": "1",
             "reviewerNameColor": "#ffffff",
             "starsColor": "#ffffff",
-            "arrows_backgroundColor": "#FFFFFF",
-            "arrows_iconColor": "#9A9A9A",
+            "arrows_backgroundColor": "#ffffff",
+            "arrows_iconColor": "#9a9a9a",
             "shadow": "none",
             "border_active": false,
             "border_width": 2,
@@ -449,6 +474,7 @@
   },
   "order": [
     "slideshow",
+    "17782575596b2747c8",
     "multi-column",
     "featured-collections",
     "featured_collections_tcUe9F",
