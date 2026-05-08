@@ -93,6 +93,17 @@
             "show_quick_buy": true
           }
         },
+        "accordion_tji6wn": {
+          "type": "accordion",
+          "settings": {
+            "show_below_gallery": true,
+            "icon": "none",
+            "title": "Why Aligned?",
+            "content": "<p><strong>Designed for Studio Life</strong></p><p>🧼 Hygienic barrier for shared reformers<br/>🎒 Easy to carry with built-in strap<br/>⚖️ Lightweight under 1 kg<br/>📏 Perfect fit 98 cm (L) × 56 cm (W)<br/>🎀 Playful, iconic design</p>",
+            "liquid": "",
+            "page": ""
+          }
+        },
         "loox_reviews_loox_snippets_widget_VrxELy": {
           "type": "shopify://apps/loox-reviews/blocks/loox-snippets-widget/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
           "settings": {
@@ -130,6 +141,7 @@
         "quantity_selector",
         "buy_buttons",
         "complementary_products",
+        "accordion_tji6wn",
         "loox_reviews_loox_snippets_widget_VrxELy"
       ],
       "settings": {
