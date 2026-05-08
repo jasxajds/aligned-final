@@ -341,19 +341,39 @@
     "176867853869dc9e83": {
       "type": "apps",
       "blocks": {
-        "loox_reviews_loox_carousel_section_AyUBDG": {
-          "type": "shopify://apps/loox-reviews/blocks/loox-carousel-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+        "loox_reviews_loox_dynamic_carousel_VNBcHp": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-dynamic-carousel/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
           "settings": {
-            "max_width": 1920,
-            "text_color": "#000000",
-            "background_color": "#ffffff",
-            "arrows_color": "#000000",
-            "dots_color": "#000000",
-            "button_color": "#000000",
-            "show_more": true,
+            "corner-radius": 40,
+            "items-per-view": 2,
+            "items-per-view-mobile": 3,
+            "max-characters": 180,
+            "autoplay": false,
+            "autoplay-delay": 5,
+            "main-color": "#AE8868",
+            "stars-color": "#FF8D00",
+            "show-review-text": true,
+            "text-color": "",
+            "reviewer-name-color": "",
+            "verified-badge-color": "",
+            "quote-marks-icon": "style-1",
+            "quote-marks-icon-color": "",
+            "review-background-color": "",
+            "product-ids": ""
+          }
+        },
+        "loox_reviews_loox_agg_section_LE9EgU": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-agg-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "reviews_to_display": "",
+            "default_tab": "automatic",
             "only_photos": false,
-            "use_widget_font": true,
-            "product_handle": ""
+            "hide_thumbnails": false,
+            "product_handle": "",
+            "aggregated": true,
+            "data-limit": 20,
+            "maxwidth": 1080,
+            "is_sample": true
           }
         },
         "loox_reviews_loox_card_carousel_section_zWMMgq": {
@@ -381,7 +401,8 @@
         }
       },
       "block_order": [
-        "loox_reviews_loox_carousel_section_AyUBDG",
+        "loox_reviews_loox_dynamic_carousel_VNBcHp",
+        "loox_reviews_loox_agg_section_LE9EgU",
         "loox_reviews_loox_card_carousel_section_zWMMgq"
       ],
       "settings": {
