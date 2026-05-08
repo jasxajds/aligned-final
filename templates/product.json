@@ -95,6 +95,7 @@
         },
         "accordion_tji6wn": {
           "type": "accordion",
+          "disabled": true,
           "settings": {
             "show_below_gallery": true,
             "icon": "none",
