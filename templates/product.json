@@ -132,9 +132,10 @@
         },
         "loox_reviews_loox_gallery_carousel_section_8QWTEg": {
           "type": "shopify://apps/loox-reviews/blocks/loox-gallery-carousel-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "disabled": true,
           "settings": {
             "maxWidth": 1100,
-            "borderRadius": 60,
+            "borderRadius": 24,
             "itemsPerView": 5,
             "mobileItemsPerView": 2,
             "imageRatio": "1",
