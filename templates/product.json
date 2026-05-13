@@ -160,6 +160,33 @@
         "max_image_zoom_level": 3
       }
     },
+    "17687145990ba42459": {
+      "type": "apps",
+      "blocks": {
+        "loox_reviews_loox_dynamic_section_A47bxi": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-dynamic-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "reviews_to_display": "",
+            "default_tab": "automatic",
+            "only_photos": false,
+            "aggregated": true,
+            "limit": 20,
+            "hide_thumbnails": false,
+            "maxwidth": 1200,
+            "is_sample": false
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_dynamic_section_A47bxi"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false
+      }
+    },
     "17782591513a634291": {
       "type": "apps",
       "blocks": {
@@ -201,39 +228,12 @@
         "title": "Related products",
         "content": ""
       }
-    },
-    "17687145990ba42459": {
-      "type": "apps",
-      "blocks": {
-        "loox_reviews_loox_dynamic_section_A47bxi": {
-          "type": "shopify://apps/loox-reviews/blocks/loox-dynamic-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-          "settings": {
-            "reviews_to_display": "",
-            "default_tab": "automatic",
-            "only_photos": false,
-            "aggregated": true,
-            "limit": 20,
-            "hide_thumbnails": false,
-            "maxwidth": 800,
-            "is_sample": false
-          }
-        }
-      },
-      "block_order": [
-        "loox_reviews_loox_dynamic_section_A47bxi"
-      ],
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false
-      }
     }
   },
   "order": [
     "main",
+    "17687145990ba42459",
     "17782591513a634291",
-    "related-products",
-    "17687145990ba42459"
+    "related-products"
   ]
 }
