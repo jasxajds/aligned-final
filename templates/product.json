@@ -192,7 +192,7 @@
             "default_tab": "automatic",
             "only_photos": false,
             "aggregated": true,
-            "limit": 10,
+            "limit": 9,
             "hide_thumbnails": false,
             "maxwidth": 1200,
             "is_sample": false
